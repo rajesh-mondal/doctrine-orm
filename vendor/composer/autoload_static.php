@@ -28,6 +28,7 @@ class ComposerStaticInitb45aca632e8cf17007981626ad2d6b1c
             'Symfony\\Contracts\\Service\\' => 26,
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Console\\' => 26,
+            'Shop\\' => 5,
         ),
         'P' => 
         array (
@@ -86,6 +87,10 @@ class ComposerStaticInitb45aca632e8cf17007981626ad2d6b1c
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Shop\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Psr\\Container\\' => 
         array (

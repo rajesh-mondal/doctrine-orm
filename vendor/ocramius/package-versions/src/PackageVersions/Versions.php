@@ -44,7 +44,7 @@ final class Versions
   'symfony/polyfill-php80' => 'v1.18.1@d87d5766cbf48d72388a9f6b85f280c8ad51f981',
   'symfony/service-contracts' => 'v2.2.0@d15da7ba4957ffb8f1747218be9e1a121fd298a1',
   'symfony/string' => 'v5.1.5@0de4cc1e18bb596226c06a82e2e7e9bc6001a63a',
-  '__root__' => 'No version set (parsed as 1.0.0)@',
+  '__root__' => 'dev-master@9a2383bba50879621c7a57cb7403d780f5fbdfaf',
 );
 
     private function __construct()
