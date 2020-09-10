@@ -21,6 +21,11 @@ class Product
      */
     protected $name;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="Products")
+     */
+    protected $user;
+
     public function getId()
     {
         return $this->id;
@@ -34,5 +39,16 @@ class Product
     public function setName($name)
     {
         $this->name = $name;
+    }
+
+    function setUser(User $user){
+        $this->user = $user;
+    }
+
+    /**
+     * @return Shop\Model\User
+     */
+    function getUser(){
+        return $this->user;
     }
 }

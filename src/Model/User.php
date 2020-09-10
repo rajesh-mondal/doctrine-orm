@@ -21,6 +21,11 @@ class User
      */
     protected $name;
 
+     /**
+     * @ORM\OneToMany(targetEntity="Product", mappedBy="user")
+     */
+    protected $products;
+
     public function getId()
     {
         return $this->id;
@@ -34,5 +39,9 @@ class User
     public function setName($name)
     {
         $this->name = $name;
+    }
+
+    function getProducts(){
+        return $this->products;
     }
 }
